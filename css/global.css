@@ -1,0 +1,213 @@
+@import url("./narmalize.css");
+/*GLOBAL START*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 3px dotted #fff;
+  outline-offset: 5px;
+}
+html {
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  background-color: #014e56;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+main {
+  flex-grow: 1;
+}
+img {
+  display: flex;
+}
+.btn {
+  border: 2px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 9px 33px 11px 32px;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+.btn:active {
+  opacity: 0.6;
+}
+.btn-white {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.btn-white:hover {
+  background-color: #ffffff;
+  color: #002529;
+}
+.btn-dark {
+  color: #002529;
+  border-color: #002529;
+}
+.btn-dark:hover {
+  background-color: #002529;
+  color: #ffffff;
+}
+.orange-text {
+  color: #f67e7e;
+}
+.divider {
+  height: 4px;
+  width: 50px;
+}
+.blue-divider {
+  background-color: #79c8c7;
+}
+.orange-divider {
+  background-color: #f67e7e;
+}
+.blue-text {
+  color: #79c8c7;
+}
+#active {
+  color: #f67e7e;
+}
+/*GLOBAL END*/
+/* HEADER START*/
+.header {
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+img .header-logo-img {
+  margin: 0;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  color: #ffffff;
+  margin-right: 80px;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.sitenav {
+  margin-right: auto;
+}
+.sitenav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.sitenav-link {
+  color: #ffffff;
+  transition: 0.3s;
+}
+.sitenav-link:hover {
+  color: #f67e7e;
+}
+/*HEADER END*/
+
+/*NETVORK START*/
+
+.cta {
+  padding-top: 76px;
+  background-color: #f67e7e;
+  color: #012f34;
+  padding-bottom: 76px;
+  background-image: url(../images/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta-title {
+  width: 700;
+  font-size: 48px;
+  line-height: 48px;
+  padding-left: 63px;
+}
+/*NETVORK END*/
+/*FOOTER START*/
+.footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #002529;
+  color: #ffffff;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  margin-right: 125px;
+}
+.footer-nav .site-logo {
+  margin-bottom: 25px;
+}
+
+.footer-info address {
+  opacity: 0.6;
+  font-style: normal;
+}
+.footer-info {
+  flex-grow: 1;
+  opacity: 0.6;
+  font-style: normal;
+}
+.footer-terms-and-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-terms {
+  opacity: 0.6;
+}
+
+.footer-links-link:hover svg path {
+  fill: #f67e7e;
+}
+
+/*FOOTER END*/

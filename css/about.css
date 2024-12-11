@@ -1,0 +1,127 @@
+@import "./global.css";
+
+/*HERO START*/
+.hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url("../images/bg-pattern-about-1-mobile-nav-1.svg");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hiro-title {
+  font-size: 64px;
+  line-height: 100px;
+}
+.hero-content {
+  text-align: start;
+  width: 100%;
+  max-width: 730px;
+}
+
+.hero-diveder {
+  margin-bottom: 40ppx;
+}
+
+.hero-description {
+  padding-top: 30px;
+  font-size: 18px;
+}
+/*HERO END*/
+/*DIRECTORS START*/
+.directors {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #004047;
+  color: #ffffff;
+  background-image: url("../images/bg-pattern-about-2-contact-1.svg"),
+    url("../images/bg-pattern-home-4-about-3.svg");
+  background-repeat: no-repeat;
+  background-position: top left -100px bottom right;
+}
+
+.directors-title {
+  font-style: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.directors-list {
+  display: flex;
+  row-gap: 76px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+.directors-list-item {
+  background-color: #012f34;
+  width: 100%;
+  max-width: 350px;
+  padding: 32px 24px 0 24px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directors-item-avatar {
+  width: 96px;
+  height: 96px;
+  border: 2px solid #c4fffe;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+.directors-item-title {
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+}
+.directors-item-level {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.directors-item-show-info-btn {
+  background-color: #f67e7e;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  margin-top: -28px;
+  margin-bottom: -28px;
+}
+/*DIRECTORS END*/
+
+.clients {
+  padding-top: 140px;
+  padding: 140px;
+  background-color: #012f34;
+  color: #ffffff;
+  background-image: url("../images/bg-pattern-home-3.svg");
+  background-repeat: no-repeat;
+}
+.clients-container {
+}
+
+.clients-container-title {
+  font-size: 48px;
+  line-height: 48px;
+
+  text-align: center;
+  margin-bottom: 64px;
+}
+.clients-logo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clients-logo-item {
+}
