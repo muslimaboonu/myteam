@@ -1,1 +1,112 @@
 @import "./global.css";
+
+.hero {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  font-family: "Livvic", sans-serif;
+  color: #ffffff;
+  background-image: url("../images/bg-pattern-about-2-contact-1.svg");
+  background-position: top 50px left -100px;
+  background-repeat: no-repeat;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content {
+  width: 400px;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  font-size: 64px;
+  line-height: 100px;
+  margin-bottom: 16px;
+}
+.hero-subtitle {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+.hero-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hero-content-item {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+.hero-content-image {
+}
+.hero-content-description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.hero-form-wrapper {
+  width: 100%;
+  max-width: 542px;
+}
+.hero-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+input::placeholder {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 60%;
+  letter-spacing: 0.12px;
+}
+input {
+  background-color: transparent;
+  border: 0;
+}
+.hero-form-textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #79c8c7;
+  color: #ffffff;
+  resize: none;
+  padding: 0 0 16px 14px;
+}
+.hero-form-control {
+  width: 100%;
+}
+.hero-form-control:last-child {
+  margin-bottom: 24px;
+}
+.hero-form-inpput {
+  width: 100%;
+  display: inline-block;
+  padding: 0 0 16px 14px;
+  color: #ffffff;
+  border-bottom: 1px solid #79c8c7;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+  font-weight: 600;
+}
+.hero-form-inpput::placeholder {
+  opacity: 60;
+}
+.hero-form-inpput:focus,
+.hero-form-textarea:focus {
+  outline: none;
+}
+
+.hero-btn {
+  cursor: pointer;
+  color: #004047;
+  border: 0;
+}
+.hero-btn:hover {
+  background-color: #79c8c7;
+  color: #002529;
+}
